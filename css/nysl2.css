@@ -1,0 +1,123 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor_flex1{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    border: solid 2px black;
+}
+
+.cabecera{
+    height: 400px;
+    background-image: url(../images/design1_image1.jpg);
+    background-size:cover;
+    padding-left: 15px;
+}
+
+.cabecera h1{
+    color: white;
+    font-size: 3.5em;
+
+
+}
+
+.cabecera2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.0em;
+    
+}
+.square{
+list-style-type: square;
+}
+
+.logo{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 20%;
+}
+
+.contenedor_izquierdo{
+    border: solid 2px white;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: justify;
+}
+
+.contenedor_izquierdo li{
+    list-style: none;
+    padding-top: 5%;
+    padding-right: 15%;
+}
+
+.contenedor_central{
+
+    float: left;
+    width: 60%;
+
+    
+}
+
+
+
+body{
+    display: block;
+    margin: 8px;
+    font-family: Arial;
+}
+
+.lista-1{
+    list-style-type:square;
+
+}
+
+
+.lista-2{
+list-style-type: decimal;
+       
+}
+
+.lista-anidada{
+list-style-type: lower-latin;
+
+}
+
+.info{
+
+    position: absolute;
+    bottom: 68px;
+    top: 79%;
+    left: 440px;
+}
+
+
+table{
+position:relative;
+width: 550px;
+height: 300px;
+left:350px;
+bottom: 145px;
+font-size: 16px;
+}
+
+table,th,td{
+    width: 700px;
+    border:1px solid rgba(17, 17, 17, 0.616);
+    border-collapse: collapse;
+}
+.contenedor_final{
+
+position: relative;
+top:-200px;
+width: 600px;
+left:350px;
+
+}
+
